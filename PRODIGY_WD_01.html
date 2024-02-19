@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <style>
+    body {
+      padding-top: 56px; 
+      
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+
+    .car-details {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .buy-now-button {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    footer {
+      background-color: #c9ddf1;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .social-icons {
+      font-size: 24px;
+      margin: 0 10px;
+    }
+
+    .logo-container {
+      text-align: center;
+      padding: 5px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      background-color: rgb(245, 111, 194);
+    }
+    .logo-container img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .textleft
+    {
+      text-align: left;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="https://imgd.aeplcdn.com/0x0/cw/static/icons/new-header/logo.svg" alt="Logo">
+      Your Brand Name
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div style="background-image:url(https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/homepage-d-2021.jpg?v=19042022);background-color:#0b2e40;background-position:center top;height:400px" class="home-page__home-banner-container-banner o-efHQCX o-bJTFMU o-fgycKO o-cpnuEd">
+  
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://img.gaadicdn.com/images/car-images/930x620/Audi/Q5/10556/1689760398208/225_Floret-Silver_a7a5ab.jpg" class="d-block w-100" alt="Car 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.gaadicdn.com/images/car-images/930x620/Audi/Q5/10556/1689760398208/223_Navarra-Blue_344170.jpg  " alt="Car 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.gaadicdn.com/images/car-images/930x620/Audi/Q5/10556/1689760398208/222_Mythos-Black_17161c.jpg" class="d-block w-100" alt="Car 3">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.gaadicdn.com/images/car-images/930x620/Audi/Q5/10556/1689760398208/224_Ibis-White_e5e7e7.jpg" class="d-block w-100" alt="Car 4">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.gaadicdn.com/images/car-images/930x620/Audi/Q5/10556/1689760398208/221_Manhattan-Gray_2c2e32.jpg" alt="Car 5" b>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-109.jpeg?isig=0&q=80" class="img-fluid" alt="Car 1">
+        <div class="car-details">
+          <h2>Maruti Fronx</h2>
+          <h3>Rs. 7.47 - 13.14 Lakh</h3>
+          <p>Maruti Fronx price for the base model starts at Rs. 7.47 Lakh and the top model price goes upto Rs. 13.14 Lakh (Avg. ex-showroom). Fronx price for 14 variants is listed below.</p>
+          <a href="#" class="btn btn-primary buy-now-button">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/141383/sonet-facelift-exterior-right-front-three-quarter-8.jpeg?isig=0&q=80" class="img-fluid" alt="Car 1">
+        <div class="car-details">
+          <h2>Kia Sonet</h2>
+          <h3>Rs. 7.99 - 15.69 Lakh</h3>
+          <p>Kia Sonet price for the base model starts at Rs. 7.99 Lakh and the top model price goes upto Rs. 15.69 Lakh (Avg. ex-showroom). Sonet price for 19 variants is listed below.</p>
+          <a href="#" class="btn btn-primary buy-now-button">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter-75.jpeg?isig=0&q=80" class="img-fluid" alt="Car 1">
+        <div class="car-details">
+          <h2>Mahindra Scorpio N</h2>
+          <h3>Rs. 13.26 - 24.54 Lakh</h3>
+          <p>Mahindra Scorpio N price for the base model starts at Rs. 13.26 Lakh and the top model price goes upto Rs. 24.54 Lakh (Avg. ex-showroom). Scorpio N price for 30 variants is listed below.</p>
+          <a href="#" class="btn btn-primary buy-now-button">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/39015/punch-exterior-right-front-three-quarter-54.jpeg?isig=0&q=80" class="img-fluid" alt="Car 1">
+        <div class="car-details">
+          <h2>Tata Punch</h2>
+          <h3>Rs. 6.00 - 10.10 Lakh</h3>
+          <p>Tata Punch price for the base model starts at Rs. 6.00 Lakh and the top model price goes upto Rs. 10.10 Lakh (Avg. ex-showroom). Punch price for 33 variants is listed below.</p>
+          <a href="#" class="btn btn-primary buy-now-button">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/40087/thar-exterior-right-front-three-quarter-35.jpeg?isig=0&q=80" class="img-fluid" alt="Car 1">
+        <div class="car-details">
+          <h2>Mahindra Thar</h2>
+          <h3>Rs. 10.98 - 16.94 Lakh</h3>
+          <p>Mahindra Thar price for the base model starts at Rs. 10.98 Lakh and the top model price goes upto Rs. 16.94 Lakh (Avg. ex-showroom). Thar price for 13 variants is listed below.</p>
+          <a href="#" class="btn btn-primary buy-now-button">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/141867/nexon-exterior-right-front-three-quarter-71.jpeg?isig=0&q=80" class="img-fluid" alt="Car 1">
+        <div class="car-details">
+          <h2>Tata Nexon</h2>
+          <h3>Rs. 8.10 - 15.50 Lakh</h3>
+          <p>Tata Nexon price for the base model starts at Rs. 8.10 Lakh and the top model price goes upto Rs. 15.50 Lakh (Avg. ex-showroom). Nexon price for 68 variants is listed below.</p>
+          <a href="#" class="btn btn-primary buy-now-button">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="background-color: rgb(231, 235, 227);">
+  <h2>All Brands</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="	https://imgd.aeplcdn.com/0X0/n/cw/ec/7/brands/logos/honda.jpg?v=1630056209549&q=80" alt="Company 1">
+          <h4>Honda</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/16/brands/logos/tata.jpg?v=1629973276336&q=80" alt="Company 2">
+          <h4>Tata</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/8/brands/logos/hyundai.jpg?v=1629973193722&q=80" alt="Company 3">
+          <h4>Hundai</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/17/brands/logos/toyota.jpg?v=1630055705330&q=80" alt="Company 4">
+          <h4>Toyota</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/9/brands/logos/mahindra.jpg?v=1629973668273&q=80" alt="Company 5">
+          <h4>Mahindra</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="	https://imgd.aeplcdn.com/0X0/n/cw/ec/1/brands/logos/bmw.jpg?v=1629973130013&q=80" alt="Company 6">
+          <h4>BMW</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/11/brands/logos/mercedes-benz.jpg?v=1629973270530&q=80" alt="Company 7">
+          <h4>Mercedes</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/70/brands/logos/kia.jpg?v=1630057189593&q=80" alt="Company 8">
+          <h4>Kia</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/23/brands/logos/land-rover1647236056893.jpg?v=1647236057234&q=80" alt="Company 9">
+          <h4>Land Rover</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/18/brands/logos/audi.jpg?v=1630055874070&q=80" alt="Company 10">
+          <h4>Audi</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/72/brands/logos/mg.jpg?v=1631163895654&q=80" alt="Company 11">
+          <h4>MG</h4>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="logo-container">
+          <img src="	https://imgd.aeplcdn.com/0X0/n/cw/ec/15/brands/logos/skoda1681982956420.jpg?v=1681982956529&q=80" alt="Company 12">
+          <h4>Skoda</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+ <h2>Top Cars In India</h2>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="https://imgd.aeplcdn.com/272x153/cw/body/suv.jpg?v=1&q=80" alt="Image 1" class="img-fluid">
+      <h4>Top SUVs in India</h4>
+      <p class="mt-2">Mahindra Scorpio N, Mahindra Thar<p>
+    </div>
+  
+    <div class="col-md-4">
+      <img src="https://imgd.aeplcdn.com/272x153/cw/body/hatchbacks.jpg?v=1&q=80" alt="Image 2" class="img-fluid">
+      <h4>Top Sedans in India</h4>
+      <p class="mt-2">Hyundai Verna, Honda City</p>
+    </div>
+    <div class="col-md-4">
+      <img src="https://imgd.aeplcdn.com/272x153/cw/body/suv.jpg?v=1&q=80" alt="Image 3" class="img-fluid">
+      <h4>Top Hatchbacks in India</h4>
+      <p class="mt-2">Maruti Suzuki Swift, Maruti Suzuki Baleno</p>
+    </div>
+  </div>
+</div>
+
+
+
+  <footer>
+    <div class="mt-10">
+    <div class="container">
+      <div class="row">
+
+      
+      <div class="textleft">
+        <div class="col-md-4">
+          <ul>
+            <li>Google MARKET</li>
+            <li>Tarms</li>
+            <li>Licenses</li>
+            <li>Market API</li>
+            <li>Become an affiliate</li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="col-md-3">
+      <div class="textleft">
+          <ul>
+            <li>HELP</li>
+            <li>Help Centre</li>
+            <li>Authors</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="textleft">
+        <div class="col-md-4">
+          <ul>
+            <li>OUR COMMUNITY</li>
+            <li>Community</li>
+            <li>Blog</li>
+            <li>Forums</li>
+            <li>Meetups</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="textleft">
+        <div class="col-md-4">
+          <ul>
+            <li>MEET Google</li>
+            <li>About Google</li>
+            <li>Careers</li>
+            <li>Privacy Policy</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+      </div>
+      <img loading="lazy" width="50" height="84" alt="B Corp logo" class="shared-global_footer-footer_component__bcorpLogo" src="https://assets.market-storefront.envato-static.com/storefront/assets/logos/bcorp-fbdd18d9fd7274a0e6591e67408e26c55df20358c3c4eee496117b16874e1749.svg">
+    </div>
+  </div>
+  </div>
+
+
+<hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div style="text-align: left;">
+            <a href="#" style="margin: 0 10px; text-decoration: none;">Google.com</a>
+            <a href="#" style="margin: 0 10px; text-decoration: none;">Google Elements</a>
+            <a href="#" style="margin: 0 10px; text-decoration: none;">Placeit by Google</a>
+            <a href="#" style="margin: 0 10px; text-decoration: none;">Google Tuts+</a>
+            <a href="#" style="margin: 0 10px; text-decoration: none;"> All Products</a>
+            <a href="#" style="margin: 0 10px; text-decoration: none;">Sitemap</a><br><br>
+            <p>Price is in US dollars and excludes tax and handling fees</p>
+            <p>© 2024 Envato Pty Ltd. Trademarks and brands are the property of their respective owners</p>
+          </div>
+
+        </div>
+
+
+        <div class="col-md-3">
+          <a href="#" class="social-icons"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icons"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icons"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icons"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <p>&copy; 2024 Car Website. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
